@@ -1,28 +1,28 @@
 class Jquants < Formula
   desc "CLI tool for querying the J-Quants API V2 (Japanese stock market data)"
   homepage "https://github.com/J-Quants/jquants-cli"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/J-Quants/jquants-cli/releases/download/v#{version}/jquants-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "e78015dad802f152853156b7b25a7563ef2b2e0bea8fa0adab1868e7345e1f3c"
+      sha256 "d6f9bc66203baac9aee2f1feadeb70dc8f5b99bdc90664fd112191fa0efd8f38"
     end
     on_arm do
       url "https://github.com/J-Quants/jquants-cli/releases/download/v#{version}/jquants-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "9750d0fc41bf25720eb33c404b4201eb7d08d45762f60ead21c4b92513296290"
+      sha256 "0bf3b00151b7d0a682e9898cebed5f9b566cebe48102864052e90a259c257914"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/J-Quants/jquants-cli/releases/download/v#{version}/jquants-#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e8499c1b6559a734f3312fc886a79dbda65cb793156e9be85441dcca9473a9d0"
+      sha256 "3f3f85378ce8c15812ff27fc178640af5599c28b1dd614ddbb4231017f3da055"
     end
     on_arm do
       url "https://github.com/J-Quants/jquants-cli/releases/download/v#{version}/jquants-#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e64f3fb5766d803b93116648fb15d028283c24aa91df4927ad8644086b2df4c1"
+      sha256 "77c7dac998ca9bd3c8ab06e6f2bfb037bf2aa150ecf251f994aeb5a6a98f8d6b"
     end
   end
 
